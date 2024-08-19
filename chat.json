@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Do you have a specific dinosaur image in mind for the background, or would you prefer we select one based on the app's theme?\", \"option1\": \"I have a specific image in mind.\", \"option2\": \"Please select one that fits the app's theme.\"}, {\"question 2\": \"Do you want the dinosaur image to cover the entire background with a full-screen view, or should it be a centered image with a complementary color/theme surrounding it?\", \"option1\": \"Cover the entire background.\", \"option2\": \"Centered with a complementary background.\"}], \"input_token_count\": 305, \"output_token_count\": 129, \"time_taken\": \"0:00:03.746675\"}",
+        "message_id": "guest19082024200941",
+        "timestamp": "19082024200946",
+        "component_file_name": "purple_background_cta_component_1724098115",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Understood, I will replace the background with a dinosaur picture.",
         "message_id": "guest19082024200941",
