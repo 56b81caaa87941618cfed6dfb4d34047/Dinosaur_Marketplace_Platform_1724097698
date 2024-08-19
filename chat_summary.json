@@ -30,5 +30,11 @@
         "content": "replace the background with a dinosaur picture",
         "timestamp": "19082024200942",
         "message_id": "guest19082024200941"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Understood, I will replace the background with a dinosaur picture.",
+        "timestamp": "19082024200942",
+        "message_id": "guest19082024200941"
     }
 ]
