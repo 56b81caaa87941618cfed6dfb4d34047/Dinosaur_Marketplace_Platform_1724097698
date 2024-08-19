@@ -21,11 +21,28 @@ Vue.component("purple_background_cta_component_1724098115", {
                     </svg>
                 </div>
                 <!-- Content -->
+                <!-- Content -->
                 <div id="content" class="max-w-3xl mx-auto text-center">
-                    <div id="content-subtitle" class="flex"><div id="content-subtitle-text" class="flex-1 font-medium bg-clip-text pb-3 text-transparent bg-gradient-to-r from-purple-500 to-purple-200">Bringing Extinct Giants to Your Doorstep</div></div>
-                    <div class="flex" id="content-title-container"><h2 id="content-title" class="flex-1 h2 bg-clip-text pb-4 bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60"> Jurassic Market: Dino Deals Await!</h2></div>
-                    <div class="flex" id="content-body-container"><p id="content-body" class="flex-1 text-lg mb-8 text-slate-400">Embark on a prehistoric adventure in the world's first dinosaur marketplace. From fearsome T-Rexes to gentle Brachiosaurus, find your perfect prehistoric companion today!</p></div>
-                    <a id="content-cta-button" href="#0" class="btn transition duration-150 ease-in-out group text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white">Get Started <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1 text-purple-500">-&gt;</span></a>
+                    <h2 id="content-title" class="h2 bg-clip-text pb-4 bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60">Enter Your Credit Card Details</h2>
+                    <form id="credit-card-form" class="mt-8 space-y-6">
+                        <div>
+                            <label for="card-number" class="block text-sm font-medium text-slate-300">Card Number</label>
+                            <input type="text" id="card-number" name="card-number" class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500" placeholder="1234 5678 9012 3456" required>
+                        </div>
+                        <div class="grid grid-cols-2 gap-6">
+                            <div>
+                                <label for="expiry-date" class="block text-sm font-medium text-slate-300">Expiry Date</label>
+                                <input type="text" id="expiry-date" name="expiry-date" class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500" placeholder="MM/YY" required>
+                            </div>
+                            <div>
+                                <label for="cvv" class="block text-sm font-medium text-slate-300">CVV</label>
+                                <input type="text" id="cvv" name="cvv" class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500" placeholder="123" required>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500">Submit Payment</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
