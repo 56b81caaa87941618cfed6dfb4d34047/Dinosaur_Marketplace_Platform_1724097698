@@ -18,5 +18,11 @@
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you prefer the credit card form to be integrated within the current page layout or as a separate, dedicated page?\", \"option1\": \"Integrated within the current page\", \"option2\": \"Separate, dedicated page\"}, {\"question 2\": \"Do you need any specific fields included in the form besides the standard card number, expiry date, CVV, and cardholder name?\", \"option1\": \"Yes, include fields for billing address\", \"option2\": \"No, just the standard fields are sufficient\"}], \"input_token_count\": 273, \"output_token_count\": 119, \"time_taken\": \"0:00:04.582244\"}",
         "timestamp": "19082024200919",
         "message_id": "guest19082024200912"
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Form validation for credit card details (e.g., format validation for card numbers, expiration date, and CVV)\", \"checked\": true}, {\"feature\": \"A 'Save this card for future purchases' checkbox for user convenience\", \"checked\": false}, {\"feature\": \"An encryption method for securely handling credit card information\", \"checked\": true}, {\"feature\": \"A dropdown menu for selecting credit card type (e.g., Visa, MasterCard, American Express)\", \"checked\": false}, {\"feature\": \"A modal window with a summary of the purchase before final submission\", \"checked\": true}, {\"feature\": \"Real-time updating of credit card type icon based on card number input\", \"checked\": false}], \"input_token_count\": 227, \"output_token_count\": 161, \"time_taken\": \"0:00:06.780457\"}",
+        "timestamp": "19082024200921",
+        "message_id": "guest19082024200912"
     }
 ]
