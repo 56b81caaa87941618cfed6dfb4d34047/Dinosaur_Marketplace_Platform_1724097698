@@ -21,9 +21,9 @@ Vue.component("purple_background_cta_component_1724098115", {
                     </svg>
                 </div>
                 <!-- Content -->
-                <!-- Content -->
                 <div id="content" class="max-w-3xl mx-auto text-center">
                     <h2 id="content-title" class="h2 bg-clip-text pb-4 bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60">Enter Your Credit Card Details</h2>
+                    <img src="https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Dinosaur_Marketplace_Platform_1724097698/main/images/899fa1c5c1964d758c4d30a54d5cbf96.jpeg" alt="Payment Image" class="my-4" />
                     <form id="credit-card-form" class="mt-8 space-y-6">
                         <div>
                             <label for="card-number" class="block text-sm font-medium text-slate-300">Card Number</label>
@@ -54,4 +54,3 @@ Vue.component("purple_background_cta_component_1724098115", {
             };
         },
     });
-                    
