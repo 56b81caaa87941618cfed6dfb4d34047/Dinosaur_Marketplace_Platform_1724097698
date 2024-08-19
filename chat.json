@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Understood, I will replace the background with a dinosaur picture.",
+        "message_id": "guest19082024200941",
+        "timestamp": "19082024200942",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "replace the background with a dinosaur picture",
         "message_id": "guest19082024200941",
