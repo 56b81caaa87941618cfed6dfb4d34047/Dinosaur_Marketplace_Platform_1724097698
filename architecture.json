@@ -2,5 +2,9 @@
     {
         "level": 1,
         "task_description": "This is the user's current request of changes to be made:\nreplace the content with a form to enter credit card details"
+    },
+    {
+        "level": 1,
+        "task_description": "This is the user's previous chat history with this AI:\n\nUser: replace the content with a form to enter credit card details\nUser: replace the background with a dinosaur picture\n\nThis is the user's current request of changes to be made:\nreplace the background with a dinosaur picture"
     }
 ]
