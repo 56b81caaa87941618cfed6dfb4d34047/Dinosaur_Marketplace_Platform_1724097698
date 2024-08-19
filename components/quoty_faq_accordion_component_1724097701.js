@@ -6,7 +6,7 @@
 Vue.component("quoty_faq_accordion_component_1724097701", {
     template: `
     <section class="py-8 bg-white pl-4">
-        <h2 class="text-lg font-semibold mb-5">PLACEHOLDER_FAQ_TITLE</h2>
+        <h2 class="text-lg font-semibold mb-5">Frequently Asked Questions About DinoMarket</h2>
         <!-- Accordion -->
         <div class="space-y-3">
             <!-- Accordion item -->
@@ -35,10 +35,10 @@ Vue.component("quoty_faq_accordion_component_1724097701", {
     data() {
         return {
             terms: [
-                { title: "ACCORDION_QUESTION_1", description: "ACCORDION_ANSWER_1", expanded: false },
-                { title: "ACCORDION_QUESTION_2", description: "ACCORDION_ANSWER_2", expanded: false },
-                { title: "ACCORDION_QUESTION_3", description: "ACCORDION_ANSWER_3", expanded: false },
-                { title: "ACCORDION_QUESTION_4", description: "ACCORDION_ANSWER_4", expanded: false },
+                { title: "How do I list my dinosaur for sale?", description: "To list your dinosaur, simply create an account, click 'Sell a Dino', and follow the prompts to add details, photos, and set your price. Our team will verify your listing before it goes live.", expanded: false },
+                { title: "Are the dinosaurs real or replicas?", description: "DinoMarket offers both authentic fossilized remains and high-quality replicas. Each listing clearly states whether it's genuine or a reproduction. We have strict authentication processes for all genuine artifacts.", expanded: false },
+                { title: "How is shipping handled for large dinosaur specimens?", description: "We partner with specialized logistics companies to ensure safe transport of even the largest specimens. Shipping costs are calculated based on size, weight, and destination. For extremely large items, we offer white-glove delivery and installation services.", expanded: false },
+                { title: "What if I'm unsatisfied with my dinosaur purchase?", description: "We offer a 30-day return policy for all purchases. If you're unsatisfied, contact our customer service team to arrange a return. For large specimens, we'll coordinate pickup. Please note that the buyer is responsible for return shipping costs unless the item is damaged or misrepresented.", expanded: false },
             ],
         };
     },
